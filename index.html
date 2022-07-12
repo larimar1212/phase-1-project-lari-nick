@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,32 +9,29 @@
     <script defer src="./index.js"></script>
     <title>Document</title>
 </head>
+
 <body>
     <div id="top-container"></div>
-    <!-- this form looks bad. please fix it -->
-    <div id="body-container">
-        <form>
+    <div id="form-container">
+        <form id="form">
             <div>r/</div>
-            <input type="text">
-            <input type="submit">
-            <select name="" id="">
-                <option></option>
-                <option></option>
-                <option></option>
+            <input type="text" id="textbox">
+            <input type="submit" id="submit">
+            <select name="sort" id="sort">
+                <option value="hot">Hot</option>
+                <option value="top">Top</option>
+                <option value="new">New</option>
             </select>
-            <select name="" id="">
-                <option></option>
-                <option></option>
-                <option></option>
-            </select>
-            <select name="" id="">
-                <option></option>
-                <option></option>
-                <option></option>
+            <select name="time" id="time">
+                <option value="hour">Hour</option>
+                <option value="day">Day</option>
+                <option value="week">Week</option>
             </select>
         </form>
-
-
+    </div>
+    <div id="body-container">
+        
     </div>
 </body>
+
 </html>
